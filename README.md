@@ -15,6 +15,7 @@ It uses the Java Microbenchmark Harness (JMH) to measure the performance of the 
 ```bash
 git clone https://github.com/bjornjorgensen/GoogleThinkBenchmark.git
 cd GoogleThinkBenchmark
+```
 
 
 Update the Tink version (optional):
@@ -25,9 +26,11 @@ If you want to benchmark a specific version of Google Tink, update the version n
 Reload the sbt project:
 ```bash
 sbt reload
+```
 
 Run the benchmark
 ```bash
 sbt jmh:run
+```
 
 This command will compile and run the benchmark, and the results will be displayed in the terminal.
