@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 5 products, 5 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B3.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_testAesGcmJceEncrypt_jmhTest.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B1.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B2.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating '${BASE}/target/scala-2.12/classes/com/googlethinkbenchmark/GoogleThinkBenchmark.class' because ${BASE}/target/scala-2.12/classes/com/googlethinkbenchmark/GoogleThinkBenchmark.class (farm(a93c4fc16e44cfca)) != ${BASE}/target/scala-2.12/classes (absent)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(${BASE}/target/scala-2.12/classes/com/googlethinkbenchmark/GoogleThinkBenchmark.class),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(${BASE}/target/scala-2.12/classes/com/googlethinkbenchmark/GoogleThinkBenchmark.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B3.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B1.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B2.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B3.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B1.java, ${BASE}/target/scala-2.12/src_managed/jmh/com/googlethinkbenchmark/jmh_generated/GoogleThinkBenchmark_jmhType_B2.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Java sources to /home/bjorn/Documents/github/GoogleThinkBenchmark/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@50443ef5 directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.650364909 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.googlethinkbenchmark.jmh_generated.GoogleThinkBenchmark_jmhType_B2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.googlethinkbenchmark.jmh_generated.GoogleThinkBenchmark_jmhType[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.googlethinkbenchmark.jmh_generated.GoogleThinkBenchmark_jmhType_B3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.googlethinkbenchmark.jmh_generated.GoogleThinkBenchmark_testAesGcmJceEncrypt_jmhTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] classfile.Parser parsing com.googlethinkbenchmark.jmh_generated.GoogleThinkBenchmark_jmhType_B1[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.147516102 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 0.807339102 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/bjorn/Documents/github/GoogleThinkBenchmark/src/main/scala/Benchmark.scala:21:11: not found: type AesGcmJce[0m
+[0m[[0m[31merror[0m] [0m[0m      new AesGcmJce(derivedKeyEncryptingKey).encrypt(ephemeralX25519PublicKey, aadState)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
