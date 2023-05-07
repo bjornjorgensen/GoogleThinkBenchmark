@@ -1,0 +1,26 @@
+# sbt specific
+target/
+project/target/
+project/project/
+
+# JMH specific
+src_managed/
+resource_managed/
+
+# Scala-IDE specific
+.cache-main
+.cache-tests
+.cache
+.scala_dependencies
+.worksheet
+
+# IntelliJ specific
+.idea/
+*.iml
+*.iws
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
